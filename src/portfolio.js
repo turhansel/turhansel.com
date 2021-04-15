@@ -118,7 +118,7 @@ const educationInfo = {
       ],
     },
     {
-      schoolName: "Stanford University",
+      schoolName: "Mehmet Akif Ersoy",
       // logo: require(logo),
       subHeader: "Bachelor of Science in Computer Science",
       duration: "September 2013 - April 2017",
@@ -136,15 +136,15 @@ const techStack = {
   experience: [
     {
       Stack: "Frontend/Design", //Insert stack or technology you have experience in
-      progressPercentage: "90%", //Insert relative proficiency in percentage
+      progressPercentage: "77%", //Insert relative proficiency in percentage
     },
     {
       Stack: "Backend",
-      progressPercentage: "70%",
+      progressPercentage: "40%",
     },
     {
       Stack: "Programming",
-      progressPercentage: "60%",
+      progressPercentage: "50%",
     },
   ],
   displayCodersrank: false, // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -157,9 +157,9 @@ const workExperiences = {
   experience: [
     {
       role: "Software Engineer",
-      company: "Facebook",
-      // companylogo: require(logo),
-      date: "June 2018 – Present",
+      company: "Hotech",
+      companylogo: require("./assets/images/akdeniz.png"),
+      date: "June 2017 – Present",
       desc:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       descBullets: [
@@ -169,7 +169,7 @@ const workExperiences = {
     },
     {
       role: "Front-End Developer",
-      company: "Quora",
+      company: "Hotech",
       // companylogo: require(logo),
       date: "May 2017 – May 2018",
       desc:
@@ -177,8 +177,8 @@ const workExperiences = {
     },
     {
       role: "Software Engineer Intern",
-      company: "Airbnb",
-      // companylogo: require(logo),
+      company: "Hotech",
+      companylogo: require("./assets/images/akdeniz.png"),
       date: "Jan 2015 – Sep 2015",
       desc:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
@@ -198,8 +198,8 @@ const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-3243454077",
-  email_address: "saadpasta70@gmail.com",
+  number: "+90(543)8955350",
+  email_address: "turhansel@gmail.com",
 };
 
 // Twitter Section

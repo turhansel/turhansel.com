@@ -5,7 +5,8 @@ import "./Layout.scss";
 import About from "./About/About";
 import Skills from "./Skills/Skills";
 import Progress from "./Skills/SkillProgress/SkillProgress";
-// import WorkExperience from "./workExperience/WorkExperience";
+import Experience from "./Experience/Experience";
+import Education from "./Education/Education";
 // import Projects from "./projects/Projects";
 // import StartupProject from "./StartupProjects/StartupProject";
 // import Achievement from "./achievement/Achievement";
@@ -13,7 +14,7 @@ import Progress from "./Skills/SkillProgress/SkillProgress";
 // import Footer from "../components/footer/Footer";
 // import Talks from "./talks/Talks";
 // import Podcast from "./podcast/Podcast";
-// import Education from "./education/Education";
+//
 // import Top from "./topbutton/Top";
 // import Twitter from "./twitter-embed/twitter";
 // import Profile from "./profile/Profile";
@@ -49,7 +50,9 @@ export default class Layout extends Component {
           <About />
           <Skills />
           <Progress />
-          {/* <Education />
+          <Education />
+          <Experience />
+          {/* 
           <WorkExperience />
           <Projects />
           <Blogs />
