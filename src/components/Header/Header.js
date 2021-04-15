@@ -1,7 +1,7 @@
 import React, { useContext } from "react";
 import Headroom from "react-headroom";
 import "./Header.scss";
-import DarkToggle from "../DarkToggle/DarkToggle";
+import DarkToggle from "./DarkToggle/DarkToggle";
 import StyleContext from "../../StyleContext";
 import {
   greeting,

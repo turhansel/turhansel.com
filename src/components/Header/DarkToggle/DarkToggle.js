@@ -1,5 +1,5 @@
 import React, { useState, useContext } from "react";
-import StyleContext from "../../StyleContext";
+import StyleContext from "../../../StyleContext";
 import "./DarkToggle.scss";
 
 const ToggleSwitch = () => {

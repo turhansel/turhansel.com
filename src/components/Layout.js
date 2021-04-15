@@ -4,7 +4,7 @@ import { StyleProvider } from "../StyleContext";
 import "./Layout.scss";
 import About from "./About/About";
 import Skills from "./Skills/Skills";
-// import StackProgress from "./skillProgress/skillProgress";
+import Progress from "./Skills/SkillProgress/SkillProgress";
 // import WorkExperience from "./workExperience/WorkExperience";
 // import Projects from "./projects/Projects";
 // import StartupProject from "./StartupProjects/StartupProject";
@@ -48,18 +48,13 @@ export default class Layout extends Component {
           <Header />
           <About />
           <Skills />
-          {/* <StackProgress />
-          <Education />
+          <Progress />
+          {/* <Education />
           <WorkExperience />
           <Projects />
-          <Achievement />
           <Blogs />
-          <Talks />
-          <Twitter />
-          <Podcast />
-          <Profile />
           <Footer />
-          <Top />  */}
+          <Top />   */}
         </StyleProvider>
       </div>
     );
