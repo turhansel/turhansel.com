@@ -3,7 +3,7 @@ import Header from "../components/Header/Header";
 import { StyleProvider } from "../StyleContext";
 import "./Layout.scss";
 import About from "./About/About";
-// import Skills from "./skills/Skills";
+import Skills from "./Skills/Skills";
 // import StackProgress from "./skillProgress/skillProgress";
 // import WorkExperience from "./workExperience/WorkExperience";
 // import Projects from "./projects/Projects";
@@ -47,12 +47,11 @@ export default class Layout extends Component {
         >
           <Header />
           <About />
-          {/* <Skills />
-          <StackProgress />
+          <Skills />
+          {/* <StackProgress />
           <Education />
           <WorkExperience />
           <Projects />
-          <StartupProject />
           <Achievement />
           <Blogs />
           <Talks />
@@ -60,7 +59,7 @@ export default class Layout extends Component {
           <Podcast />
           <Profile />
           <Footer />
-          <Top /> */}
+          <Top />  */}
         </StyleProvider>
       </div>
     );
