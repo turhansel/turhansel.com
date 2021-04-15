@@ -4,7 +4,7 @@ import emoji from "react-easy-emoji";
 import "./About.scss";
 import "@lottiefiles/lottie-player";
 import Social from "./Social/Social";
-import Button from "./Button/Button";
+import Button from "../Button/Button";
 
 import { greeting } from "../../portfolio";
 import StyleContext from "../../StyleContext";

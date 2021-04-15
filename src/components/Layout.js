@@ -7,7 +7,8 @@ import Skills from "./Skills/Skills";
 import Progress from "./Skills/SkillProgress/SkillProgress";
 import Experience from "./Experience/Experience";
 import Education from "./Education/Education";
-// import Projects from "./projects/Projects";
+import Projects from "./Projects/Projects";
+import Profile from "../components/Profile/Profile";
 // import StartupProject from "./StartupProjects/StartupProject";
 // import Achievement from "./achievement/Achievement";
 // import Blogs from "./blogs/Blogs";
@@ -17,7 +18,6 @@ import Education from "./Education/Education";
 //
 // import Top from "./topbutton/Top";
 // import Twitter from "./twitter-embed/twitter";
-// import Profile from "./profile/Profile";
 
 export default class Layout extends Component {
   constructor(props) {
@@ -52,9 +52,10 @@ export default class Layout extends Component {
           <Progress />
           <Education />
           <Experience />
-          {/* 
-          <WorkExperience />
           <Projects />
+          <Profile />
+          {/* 
+
           <Blogs />
           <Footer />
           <Top />   */}

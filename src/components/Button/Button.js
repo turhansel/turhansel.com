@@ -1,5 +1,5 @@
 import React from "react";
-import "../About.scss";
+import "./Button.scss";
 
 export default function Button({ text, className, href, newTab }) {
   return (
