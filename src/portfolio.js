@@ -6,7 +6,7 @@ const illustration = {
 
 const about = {
   username: "Turhan Sel",
-  title: "Hi all, Turhan Sel",
+  title: "Hello, I'm Turhan Sel",
   subTitle: emoji(
     "I want to specialize in Frontend as part of the rapidly developing technology. I also used most of the object-oriented programming and web technologies becauseipt"
   ),
@@ -21,7 +21,7 @@ const socialMediaLinks = {
   github: "https://github.com/turhansel",
   linkedin: "https://www.linkedin.com/in/turhansel/",
   gmail: "turhansel@gmail.com",
-  twitter: "https://www.twitter.com/in/turhansel/",
+  twitter: "https://www.twitter.com/in/ulabturbo/",
   // Instagram and Twitter are also supported in the links!
   display: true, // Set true to display this section, defaults to false
 };
@@ -65,10 +65,7 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "reactjs",
       fontAwesomeClassname: "fab fa-react",
     },
-    {
-      skillName: "nodejs",
-      fontAwesomeClassname: "fab fa-node",
-    },
+
     {
       skillName: "swift",
       fontAwesomeClassname: "fab fa-swift",
@@ -77,25 +74,10 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "npm",
       fontAwesomeClassname: "fab fa-npm",
     },
-    {
-      skillName: "sql-database",
-      fontAwesomeClassname: "fas fa-database",
-    },
-    {
-      skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws",
-    },
+
     {
       skillName: "firebase",
       fontAwesomeClassname: "fas fa-fire",
-    },
-    {
-      skillName: "python",
-      fontAwesomeClassname: "fab fa-python",
-    },
-    {
-      skillName: "docker",
-      fontAwesomeClassname: "fab fa-docker",
     },
   ],
   display: true, // Set false to hide this section, defaults to true
