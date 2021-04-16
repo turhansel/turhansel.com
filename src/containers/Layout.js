@@ -11,15 +11,8 @@ import Projects from "./Projects/Projects";
 import Profile from "./Profile/Profile";
 import Top from "./TopButton/TopButton";
 import Footer from "./Footer/Footer";
-// import StartupProject from "./StartupProjects/StartupProject";
-// import Achievement from "./achievement/Achievement";
+
 // import Blogs from "./blogs/Blogs";
-//
-// import Talks from "./talks/Talks";
-// import Podcast from "./podcast/Podcast";
-//
-//
-// import Twitter from "./twitter-embed/twitter";
 
 export default class Layout extends Component {
   constructor(props) {
