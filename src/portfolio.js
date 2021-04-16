@@ -4,7 +4,7 @@ const illustration = {
   animated: true, // set to false to use static SVG
 };
 
-const greeting = {
+const about = {
   username: "Turhan Sel",
   title: "Hi all, Turhan Sel",
   subTitle: emoji(
@@ -12,7 +12,7 @@ const greeting = {
   ),
   resumeLink:
     "https://drive.google.com/file/d/1l_3ITd9HQNjPTUfDKSjRu8TY-X3oUigt/view",
-  displayGreeting: true, // Set false to hide this section, defaults to true
+  displayAbout: true, // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
@@ -156,7 +156,7 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
+      role: "Front-End Intern",
       company: "Hotech",
       companylogo: require("./assets/images/akdeniz.png"),
       date: "June 2017 – Present",
@@ -167,14 +167,14 @@ const workExperiences = {
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
       ],
     },
-    {
-      role: "Front-End Developer",
-      company: "Hotech",
-      // companylogo: require(logo),
-      date: "May 2017 – May 2018",
-      desc:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    },
+    // {
+    //   role: "Front-End Developer",
+    //   company: "Hotech",
+    //   // companylogo: require(logo),
+    //   date: "May 2017 – May 2018",
+    //   desc:
+    //     "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    // },
     {
       role: "Software Engineer Intern",
       company: "Hotech",
@@ -211,7 +211,7 @@ const twitterDetails = {
 
 export {
   illustration,
-  greeting,
+  about,
   socialMediaLinks,
   skillsSection,
   educationInfo,
