@@ -52,7 +52,7 @@ export default function About() {
               loop
               mode="normal"
               src="https://assets6.lottiefiles.com/private_files/lf30_WdTEui.json"
-              style={{ width: "90%" }}
+              style={{ width: "90%", marginLeft: "auto" }}
             ></lottie-player>
           </div>
         </div>

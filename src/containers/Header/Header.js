@@ -60,7 +60,7 @@ function Header() {
             <a href="#contact">Contact Me</a>
           </li>
           <li>
-            <a href="#bla">
+            <a href="#darktoggle">
               <DarkToggle />
             </a>
           </li>
