@@ -3,6 +3,7 @@
   "private": true,
   "dependencies": {
     "@lottiefiles/lottie-player": "^1.0.3",
+    "@types/react-transition-group": "^4.4.1",
     "colorthief": "^2.3.0",
     "gh-pages": "^2.1.1",
     "react": "^16.10.2",
@@ -12,6 +13,7 @@
     "react-lottie": "^1.2.3",
     "react-reveal": "^1.2.2",
     "react-scripts": "^4.0.3",
+    "react-transition-group": "2.7.0",
     "react-twitter-embed": "3.0.3",
     "sass": "^1.32.8"
   },
