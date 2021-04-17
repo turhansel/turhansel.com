@@ -14,7 +14,7 @@
   font-size: 1.3rem;
   height: 2.6rem;
   line-height: 2.6rem;
-  margin: 0 5px;
+  margin: 0 9px;
   position: relative;
   text-align: center;
   -webkit-user-select: none;
@@ -63,16 +63,9 @@
 }
 
 /* Hover Transition */
-.twitter i:hover,
-.google i:hover,
-.gitlab i:hover,
-.github i:hover,
-.linkedin i:hover,
-.facebook i:hover,
-.instagram i:hover,
-.stack-overflow i:hover,
-.medium i:hover {
+i:hover {
   background-color: black;
+  transform: rotate(360deg);
 }
 
 /* Media Query */
