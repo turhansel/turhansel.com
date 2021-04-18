@@ -12,27 +12,32 @@
 }
 
 .header {
-  background-color: #fff;
+  // display: flex;
+  justify-content: center;
+  align-items: center;
   max-width: 100%;
-  padding: 10px 20px;
+  padding: 0 20px;
   margin: 0px auto;
+  border-radius: 2em;
+  background: rgba(255, 255, 255, 0.5);
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    overflow: hidden;
+    a {
+      display: block;
+      padding: 15px 20px;
+      color: black;
+      text-decoration: none;
+    }
+  }
 }
 
-.header ul {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-  overflow: hidden;
-}
 .grey-color {
   color: #868e96;
-}
-
-.header li a {
-  display: block;
-  padding: 15px 20px;
-  color: black;
-  text-decoration: none;
 }
 
 .header li a:hover,
@@ -46,15 +51,15 @@
   float: left;
   font-size: 1.5em;
   text-decoration: none;
-  margin-top: 10px;
+  margin-top: 13px;
   line-height: normal;
 }
 .header .logo-name {
-  font-family: "Agustina Regular";
   font-weight: bold;
   font-variant-ligatures: no-common-ligatures;
   -webkit-font-variant-ligatures: no-common-ligatures;
   padding: 0 10px;
+  align-items: center;
 }
 
 /* menu */
@@ -81,7 +86,7 @@
   display: block;
   height: 2px;
   position: relative;
-  transition: background 0.2s ease-out;
+  transition: backgroundcolor 0.2s ease-out;
   width: 18px;
 }
 
@@ -158,6 +163,9 @@
   }
   .header .menu-icon {
     display: none;
+  }
+  .header .logo {
+    margin-top: 0;
   }
 }
 @media (max-width: 960px) and (min-width: 768px) {

@@ -1,3 +1,16 @@
+* {
+  font-family: "Inter", sans-serif;
+}
+
+body {
+  background: #edc0bf;
+  background: linear-gradient(90deg, #edc0bf 0, #c4caef 58%);
+  font-family: "Inter", sans-serif;
+  color: #4a4a4a;
+  font-size: 1em;
+  font-weight: 400;
+  line-height: 1.5;
+}
 .dark-mode {
   background-color: #171c28;
   color: white;
