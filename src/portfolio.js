@@ -1,5 +1,6 @@
 import emoji from "react-easy-emoji";
-
+import akdeniz from "./assets/images/akdeniz.png";
+import maeal from "./assets/images/maeal.png";
 const illustration = {
   animated: true, // set to false to use static SVG
 };
@@ -89,24 +90,24 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
-      // logo: require("/images/akdeniz.png/"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
+      schoolName: "AKDENIZ UNIVERSITY",
+      logo: akdeniz,
+      subHeader: "MANAGEMENT INFORMATION SYSTEM",
+      duration: "September 2017 - June 2021",
+      desc: "GPA: 4/3.10",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+        "MIS division expanded my creativity",
+        "I learned OOP, C, C#, Java with Anroid Studio and Web Development",
       ],
     },
     {
-      schoolName: "Mehmet Akif Ersoy",
-      // logo: require(logo),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc:
-        "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"],
+      schoolName: "MEHMET AKIF ERSOY HIGH SCHOOL",
+      logo: maeal,
+      subHeader: "TURKISH-MATHEMATICS",
+      duration: "September 2012 - June 2016",
+      // desc:
+      //   "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
+      // descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"],
     },
   ],
 };
