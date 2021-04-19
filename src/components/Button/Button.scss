@@ -1,27 +1,45 @@
-//Button
-
 .main-button {
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+  box-sizing: border-box;
+  margin-right: 50px;
+  cursor: pointer;
+  color: white;
+  font-weight: 500;
+  padding: 13px 22px;
   background: linear-gradient(90deg, #03a9f4, #f441a5, #ffeb3b, #03a9f4);
   background-size: 400%;
-  color: white;
-  font-weight: 700;
-  width: max-content;
-  padding: 13px 22px;
-  margin-right: 50px;
-  box-sizing: border-box;
-  text-transform: uppercase;
-  border-radius: 30px;
-  text-align: center;
-  text-decoration: none;
-  display: block;
-  margin-top: 20px;
-  font-size: 16px;
-  cursor: pointer;
-  transition: all 0.3s ease-in-out 0s;
+  border-radius: 1.9rem;
+  font-size: 1rem;
+  position: relative;
+  z-index: 1;
+  &:hover {
+    text-decoration: none;
+    animation: animate 8s linear infinite;
+    &::before {
+      filter: blur(20px);
+      opacity: 1;
+      animation: animate 8s linear infinite;
+    }
+  }
+  &::before {
+    content: "";
+    position: absolute;
+    top: -5px;
+    left: -5px;
+    right: -5px;
+    bottom: -5px;
+    z-index: -1;
+    background: linear-gradient(90deg, #03a9f4, #f441a5, #ffeb3b, #03a9f4);
+    background-size: 400%;
+    border-radius: 999px;
+    filter: blur(20px);
+    opacity: 0;
+    transition: 0.5s;
+  }
 }
-a:hover {
-  animation: animate 8s linear infinite;
-}
+
 @keyframes animate {
   0% {
     background-position: 0%;
@@ -30,11 +48,6 @@ a:hover {
     background-position: 400%;
   }
 }
-
-// background-color: #ffffff;
-//     color: #55198b;
-//     transition: all 0.3s ease 0s;
-//     transform: translateY(-3px);
 
 .project-button {
   display: flex;
