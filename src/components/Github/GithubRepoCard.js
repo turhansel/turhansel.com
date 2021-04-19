@@ -10,7 +10,7 @@ export default function GithubRepoCard({ repo, isDark }) {
   }
 
   return (
-    <Tilt options={{ max: 25, speed: 100, transition: true }}>
+    <Tilt options={{ max: 25, speed: 400, transition: true }}>
       <Fade bottom duration={1000} distance="20px">
         <div
           className={isDark ? "dark-card-mode repo-card-div" : "repo-card-div"}
