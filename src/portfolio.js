@@ -1,6 +1,9 @@
 import emoji from "react-easy-emoji";
 import akdeniz from "./assets/images/akdeniz.png";
 import maeal from "./assets/images/maeal.png";
+import hotech from "./assets/images/hotech-logo.svg";
+import teamder from "./assets/images/teamder.svg";
+
 const illustration = {
   animated: true, // set to false to use static SVG
 };
@@ -141,7 +144,7 @@ const workExperiences = {
     {
       role: "Front-End Intern",
       company: "Hotech",
-      companylogo: require("./assets/images/akdeniz.png"),
+      companylogo: hotech,
       date: "June 2017 – Present",
       desc:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
@@ -159,10 +162,10 @@ const workExperiences = {
     //     "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     // },
     {
-      role: "Software Engineer Intern",
-      company: "Hotech",
+      role: "Front-End Intern(VOLUNTARY)",
+      company: teamder,
       companylogo: require("./assets/images/akdeniz.png"),
-      date: "Jan 2015 – Sep 2015",
+      date: "June 2020 – March 2021",
       desc:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     },

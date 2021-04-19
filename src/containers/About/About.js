@@ -1,12 +1,15 @@
 import React, { useContext } from "react";
 import { Fade } from "react-reveal";
 import emoji from "react-easy-emoji";
+import DisplayLottie from "../../components/DisplayLottie/DisplayLotties";
 import "./About.scss";
+import developer from "../../assets/lotties/developer.json";
+
 import "@lottiefiles/lottie-player";
 import Social from "../../components/Social/Social";
 import Button from "../../components/Button/Button";
 
-import { about } from "../../portfolio";
+import { illustration, about } from "../../portfolio";
 import StyleContext from "../../StyleContext";
 
 export default function About() {
@@ -47,13 +50,14 @@ export default function About() {
             </div>
           </div>
           <div className="greeting-image-div">
-            <lottie-player
-              autoplay
-              loop
-              mode="normal"
-              src="https://assets6.lottiefiles.com/private_files/lf30_WdTEui.json"
-              style={{ width: "90%", marginLeft: "auto" }}
-            ></lottie-player>
+            {illustration.animated ? (
+              <DisplayLottie animationData={developer} />
+            ) : (
+              <img
+                alt="hello dude"
+                src={require("../../assets/lotties/displayLottie.svg")}
+              ></img>
+            )}
           </div>
         </div>
       </div>
