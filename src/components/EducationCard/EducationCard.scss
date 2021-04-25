@@ -1,12 +1,10 @@
-//EducationCard
-
 .education-card {
   display: flex;
   flex-direction: row;
 }
 
 .education-card:hover + .education-card-border {
-  border-color: #a9a7f9;
+  border-color: #fe9920;
   width: 100%;
   -webkit-transition: width 0.6s ease-in-out;
   -moz-transition: width 0.6s ease-in-out;

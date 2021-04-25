@@ -18,7 +18,7 @@ export default function EducationCard({ school }) {
   };
   const { isDark } = useContext(StyleContext);
   return (
-    <div>
+    <>
       <Fade left duration={1000}>
         <div className="education-card">
           <div className="education-card-left">
@@ -63,6 +63,6 @@ export default function EducationCard({ school }) {
       <Slide left duration={2000}>
         <div className="education-card-border"></div>
       </Slide>
-    </div>
+    </>
   );
 }
