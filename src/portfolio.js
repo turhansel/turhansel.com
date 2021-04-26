@@ -34,16 +34,8 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
-  skills: [
-    emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
-    ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
-    emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
-    ),
-  ],
+  subTitle: "CRAZY JR FRONTEND DEVELOPER WHO WANTS TO EXPLORE EVERY TECH",
+  skills: [emoji("⚡ Lorem"), emoji("⚡ Lorem"), emoji("⚡ Lorem")],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
 https://fontawesome.com/icons?d=gallery */
@@ -51,38 +43,43 @@ https://fontawesome.com/icons?d=gallery */
   softwareSkills: [
     {
       skillName: "html-5",
-      fontAwesomeClassname: "fab fa-html5",
+      sclassName: "fab fa-html5",
     },
     {
       skillName: "css3",
-      fontAwesomeClassname: "fab fa-css3-alt",
+      sclassName: "fab fa-css3-alt",
     },
     {
       skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass",
+      sclassName: "fab fa-sass",
     },
     {
       skillName: "JavaScript",
-      fontAwesomeClassname: "fab fa-js",
+      sclassName: "fab fa-js",
     },
     {
       skillName: "reactjs",
-      fontAwesomeClassname: "fab fa-react",
+      sclassName: "fab fa-react",
     },
 
     {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift",
-    },
-    {
       skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm",
+      sclassName: "fab fa-npm",
     },
 
     {
       skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire",
+      sclassName: "fas fa-fire",
     },
+    {
+      skillName: "git",
+      sclassName: "fab fa-git-alt",
+    },
+    {
+      skillName: "github",
+      sclassName: "fab fa-github",
+    },
+    <i class="fab fa-git-alt"></i>,
   ],
   display: true, // Set false to hide this section, defaults to true
 };
