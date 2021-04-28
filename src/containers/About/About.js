@@ -3,7 +3,7 @@ import { Fade } from "react-reveal";
 import emoji from "react-easy-emoji";
 import DisplayLottie from "../../components/DisplayLottie/DisplayLotties";
 import "./About.scss";
-import developer from "../../assets/lotties/developer.json";
+import spaceman from "../../assets/lotties/spaceman.json";
 
 import "@lottiefiles/lottie-player";
 import Social from "../../components/Social/Social";
@@ -22,36 +22,34 @@ export default function About() {
       <div className="greet-main" id="greeting">
         <div className="greeting-main">
           <div className="greeting-text-div">
-            <div>
-              <h1
-                className={isDark ? "dark-mode greeting-text" : "greeting-text"}
-              >
-                {" "}
-                {about.title} <span className="wave-emoji">{emoji("👋")}</span>
-              </h1>
-              <p
-                className={
-                  isDark
-                    ? "dark-mode greeting-text-p"
-                    : "greeting-text-p subTitle"
-                }
-              >
-                {about.subTitle}
-              </p>
-              <Social />
-              <div className="button-greeting-div">
-                <Button text="Contact me" href="#contact" />
-                <Button
-                  text="See my resume"
-                  newTab={true}
-                  href={about.resumeLink}
-                />
-              </div>
+            <h1
+              className={isDark ? "dark-mode greeting-text" : "greeting-text"}
+            >
+              {" "}
+              {about.title} <span className="wave-emoji">{emoji("👋")}</span>
+            </h1>
+            <p
+              className={
+                isDark
+                  ? "dark-mode greeting-text-p"
+                  : "greeting-text-p subTitle"
+              }
+            >
+              {about.subTitle}
+            </p>
+            <Social />
+            <div className="button-greeting-div">
+              <Button text="Contact me" href="#contact" />
+              <Button
+                text="See my resume"
+                newTab={true}
+                href={about.resumeLink}
+              />
             </div>
           </div>
           <div className="greeting-image-div">
             {illustration.animated ? (
-              <DisplayLottie animationData={developer} />
+              <DisplayLottie animationData={spaceman} />
             ) : (
               <img
                 alt="hello dude"
