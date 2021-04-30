@@ -9,7 +9,7 @@ const illustration = {
 };
 
 const about = {
-  username: "Turhan Sel",
+  username: "cd home",
   title: "Hello, I'm Turhan Sel",
   subTitle: emoji(
     "I want to specialize in Frontend as part of the rapidly developing technology. I also used most of the object-oriented programming and web technologies becauseipt"

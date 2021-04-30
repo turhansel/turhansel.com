@@ -41,6 +41,22 @@
   color: #868e96;
 }
 
+.blink {
+  font-size: 20px;
+  background-color: pink;
+  animation: blink 1s infinite;
+}
+
+@keyframes blink {
+  0% {
+    opacity: 0.1;
+  }
+  100% {
+    opacity: 1;
+    text-shadow: 1px 0px 30px cyan;
+  }
+}
+
 .header li a:hover,
 .header .menu-btn:hover {
   // background-color: #f4f4f4;
