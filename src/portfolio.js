@@ -11,9 +11,7 @@ const illustration = {
 const about = {
   username: "cd home",
   title: "Hello, I'm Turhan Sel",
-  subTitle: emoji(
-    "I want to specialize in Frontend as part of the rapidly developing technology. I also used most of the object-oriented programming and web technologies becauseipt"
-  ),
+  subTitle: emoji("A passionate fullstack developer from Turkey"),
   resumeLink:
     "https://drive.google.com/file/d/1l_3ITd9HQNjPTUfDKSjRu8TY-X3oUigt/view",
   displayAbout: true, // Set false to hide this section, defaults to true
@@ -34,7 +32,7 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "CRAZY JR FRONTEND DEVELOPER WHO WANTS TO EXPLORE EVERY TECH",
+  subTitle: "CRAZY JR FULLSTACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH",
   skills: [emoji("⚡ Lorem"), emoji("⚡ Lorem"), emoji("⚡ Lorem")],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
