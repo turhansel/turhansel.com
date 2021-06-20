@@ -13,7 +13,7 @@ const about = {
   title: "Hello, I'm Turhan Sel",
   subTitle: emoji("A passionate fullstack developer from Turkey"),
   resumeLink:
-    "https://drive.google.com/file/d/1l_3ITd9HQNjPTUfDKSjRu8TY-X3oUigt/view",
+    "https://drive.google.com/file/d/1YGIVlnRcOm8g-2xvm4Q-uWI2xawYRbGr/view?usp=sharing",
   displayAbout: true, // Set false to hide this section, defaults to true
 };
 
