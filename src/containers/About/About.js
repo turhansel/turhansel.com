@@ -28,6 +28,16 @@ export default function About() {
               {" "}
               {about.title} <span className="wave-emoji">{emoji("👋")}</span>
             </h1>
+
+            <p
+              className={
+                isDark
+                  ? "dark-mode greeting-text-p"
+                  : "greeting-text-p subTitle"
+              }
+            >
+              {about.jobTitle}
+            </p>
             <p
               className={
                 isDark

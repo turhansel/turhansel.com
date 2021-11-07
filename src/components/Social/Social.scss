@@ -1,76 +1,76 @@
-.social-media-div {
-  font-size: 2em;
+.social-media-cnt {
+    font-size: 2em;
 }
 
 .icon-button {
-  margin-bottom: 10px;
+    margin-bottom: 10px;
 }
 
 .icon-button i {
-  color: white;
-  border-radius: 2.6rem;
-  cursor: pointer;
-  display: inline-block;
-  font-size: 1.3rem;
-  height: 2.6rem;
-  line-height: 2.6rem;
-  margin: 0 9px;
-  position: relative;
-  text-align: center;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-  width: 2.6rem;
-  margin-bottom: 10px;
-  transition: 0.2s ease-in;
+    color: white;
+    border-radius: 2.6rem;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 1.3rem;
+    height: 2.6rem;
+    line-height: 2.6rem;
+    margin: 0 9px;
+    position: relative;
+    text-align: center;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    width: 2.6rem;
+    margin-bottom: 10px;
+    transition: 0.2s ease-in;
 }
 
 .facebook i {
-  background-color: #3b5998;
+    background-color: #3b5998;
 }
 
 .linkedin i {
-  background-color: #0e76a8;
+    background-color: #0e76a8;
 }
 
 .github i {
-  background-color: #333;
+    background-color: #333;
 }
 
 .gitlab i {
-  background-color: #fca326;
+    background-color: #fca326;
 }
 
 .google i {
-  background-color: #ea4335;
+    background-color: #ea4335;
 }
 
 .twitter i {
-  background-color: #1da1f2;
+    background-color: #1da1f2;
 }
 
 .medium i {
-  background-color: #000;
+    background-color: #000;
 }
 
 .stack-overflow i {
-  background-color: #f48024;
+    background-color: #f48024;
 }
 
 .instagram i {
-  background-color: #c13584;
+    background-color: #c13584;
 }
 
 /* Hover Transition */
 i:hover {
-  background-color: black;
-  transform: rotate(360deg);
+    // background-color: black;
+    transform: rotate(360deg);
 }
 
 /* Media Query */
 @media (max-width: 768px) {
-  .social-media-div {
-    text-align: center;
-  }
+    .social-media-cnt {
+        text-align: center;
+    }
 }
