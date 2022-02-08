@@ -18,7 +18,7 @@ const about = {
         "I'm very enthusiastic about JavaScript. I really want to specialize in Front-End as part of rapidly developing technology. "
     ),
     resumeLink:
-        'https://drive.google.com/file/d/1HimAcAFk8fXR11RquiR99iru_DPeQJGR/view?usp=sharing',
+        'https://drive.google.com/file/d/1iQB0tfpYiiwx9MtmsCkbjP9msrJfeRw6/view?usp=sharing',
     displayAbout: true, // Set false to hide this section, defaults to true
 };
 
